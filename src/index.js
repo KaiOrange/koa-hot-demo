@@ -9,7 +9,7 @@ class Index extends React.Component {
   }
 
   render() {
-    return <p>123123{this.state.someKey}</p>;
+    return <p>{this.state.someKey}</p>;
   }
 
   componentDidMount() {
